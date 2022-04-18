@@ -1,4 +1,5 @@
-# issue
-1. Чистый Selenide (с Listener)  
-2. Лямбда шаги через step (name, () -> {})  
-3. Шаги с аннотацией @Step
+# github_issue
+Tests for github > repository > tab issue
+1. Selenide with Listener 
+2. Lambda via step (name, () -> {})  
+3. Steps with annonatotion @Step
