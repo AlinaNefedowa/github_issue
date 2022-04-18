@@ -10,11 +10,11 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class BaseTest {
+public class LambdaWithSteps {
 
         @Test
         public void testIssueSearch() {
-       // SelenideLogger.addListener("allure", new AllureSelenide());
+        SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com");
 
@@ -27,4 +27,4 @@ public class BaseTest {
         $(withText("#1")).should(Condition.exist);
         }
 
-        }
+}
